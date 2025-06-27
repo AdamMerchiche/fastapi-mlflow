@@ -1,0 +1,6 @@
+fastapi
+mlflow
+uvicorn[standard]
+pydantic
+pandas
+pydantic-settings

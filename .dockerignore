@@ -1,0 +1,3 @@
+# On va ajouter tout ce qu'on veut pas copier
+.env 
+validate.parquet
