@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Docker
-        run: sudo apt-get install -y docker.io
+        run: sudo apt-get update && sudo apt-get upgrade &&  sudo apt-get install -y docker.io
 
       - name: Build Docker Image
         run: docker build -t ${{vars.DOCKER_USERNAME}}/fastapi-mlflow:ci .
